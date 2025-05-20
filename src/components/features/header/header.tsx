@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavTabPanel } from './nav/nav-tab-panel';
-import { Box, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import { BaseTypography } from '../../base-mui-components/base-typography';
 import { BaseButton } from '../../base-mui-components/base-button';
 
