@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography } from "@mui/material"
+import { Card, CardContent} from "@mui/material"
 import type { baseCardType } from "./types"
 import { BaseTypography } from "./base-typography"
 import { BaseContentTypography } from "./base-content-typography"
