@@ -1,1 +1,1 @@
-export const Home: React.FC = () => <h1>Home Page</h1>;
+export const About: React.FC = () => <h1>Home Page</h1>;
