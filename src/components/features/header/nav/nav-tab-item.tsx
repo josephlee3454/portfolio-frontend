@@ -1,16 +1,18 @@
-import { Typography } from "@mui/material"
-import type { NavTabItemType } from "../types"
-
+import { Typography } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import type { NavTabItemType } from "../types";
 
 export const NavTabItem: React.FC<NavTabItemType> = ({ tabName }) => {
+  const theme = useTheme();
+
   return (
     <Typography
       sx={{
-        color: "#676767",
+        color: theme.palette.text.primary,
         cursor: "pointer",
         transition: "color 0.3s ease",
         "&:hover": {
-          color: "#ffffff",
+          color: theme.palette.secondary.main,
         },
       }}
     >

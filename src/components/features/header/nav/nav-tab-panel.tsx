@@ -8,7 +8,7 @@ export const NavTabPanel: React.FC = () => {
     return(
         <Stack 
             direction="row" 
-            spacing={2} 
+            spacing={8} 
             sx={{
             alignItems: 'center', 
             }}
